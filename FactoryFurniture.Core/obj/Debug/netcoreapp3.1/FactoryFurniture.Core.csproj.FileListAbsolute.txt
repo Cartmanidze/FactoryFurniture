@@ -1,0 +1,15 @@
+C:\Users\BezrukovGA\source\repos\FactoryFurniture\FactoryFurniture.Core\bin\Debug\netcoreapp3.1\FactoryFurniture.Core.deps.json
+C:\Users\BezrukovGA\source\repos\FactoryFurniture\FactoryFurniture.Core\bin\Debug\netcoreapp3.1\FactoryFurniture.Core.dll
+C:\Users\BezrukovGA\source\repos\FactoryFurniture\FactoryFurniture.Core\obj\Debug\netcoreapp3.1\FactoryFurniture.Core.AssemblyInfoInputs.cache
+C:\Users\BezrukovGA\source\repos\FactoryFurniture\FactoryFurniture.Core\obj\Debug\netcoreapp3.1\FactoryFurniture.Core.AssemblyInfo.cs
+C:\Users\BezrukovGA\source\repos\FactoryFurniture\FactoryFurniture.Core\obj\Debug\netcoreapp3.1\FactoryFurniture.Core.csprojAssemblyReference.cache
+C:\Users\BezrukovGA\source\repos\FactoryFurniture\FactoryFurniture.Core\bin\Debug\netcoreapp3.1\FactoryFurniture.Core.runtimeconfig.json
+C:\Users\BezrukovGA\source\repos\FactoryFurniture\FactoryFurniture.Core\bin\Debug\netcoreapp3.1\FactoryFurniture.Core.runtimeconfig.dev.json
+C:\Users\BezrukovGA\source\repos\FactoryFurniture\FactoryFurniture.Core\obj\Debug\netcoreapp3.1\FactoryFurniture.Core.genruntimeconfig.cache
+C:\Users\BezrukovGA\source\repos\FactoryFurniture\FactoryFurniture.Core\bin\Debug\netcoreapp3.1\FactoryFurniture.Core.pdb
+C:\Users\BezrukovGA\source\repos\FactoryFurniture\FactoryFurniture.Core\bin\Debug\netcoreapp3.1\FactoryFurniture.Data.dll
+C:\Users\BezrukovGA\source\repos\FactoryFurniture\FactoryFurniture.Core\bin\Debug\netcoreapp3.1\FactoryFurniture.Data.pdb
+C:\Users\BezrukovGA\source\repos\FactoryFurniture\FactoryFurniture.Core\obj\Debug\netcoreapp3.1\FactoryFurniture.Core.csproj.CoreCompileInputs.cache
+C:\Users\BezrukovGA\source\repos\FactoryFurniture\FactoryFurniture.Core\obj\Debug\netcoreapp3.1\FactoryFurniture.Core.csproj.CopyComplete
+C:\Users\BezrukovGA\source\repos\FactoryFurniture\FactoryFurniture.Core\obj\Debug\netcoreapp3.1\FactoryFurniture.Core.dll
+C:\Users\BezrukovGA\source\repos\FactoryFurniture\FactoryFurniture.Core\obj\Debug\netcoreapp3.1\FactoryFurniture.Core.pdb
