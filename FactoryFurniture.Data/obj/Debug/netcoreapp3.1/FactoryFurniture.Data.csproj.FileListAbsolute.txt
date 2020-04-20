@@ -1,0 +1,9 @@
+C:\Users\BezrukovGA\source\repos\FactoryFurniture\FactoryFurniture.Data\bin\Debug\netcoreapp3.1\FactoryFurniture.Data.deps.json
+C:\Users\BezrukovGA\source\repos\FactoryFurniture\FactoryFurniture.Data\bin\Debug\netcoreapp3.1\FactoryFurniture.Data.dll
+C:\Users\BezrukovGA\source\repos\FactoryFurniture\FactoryFurniture.Data\bin\Debug\netcoreapp3.1\FactoryFurniture.Data.pdb
+C:\Users\BezrukovGA\source\repos\FactoryFurniture\FactoryFurniture.Data\obj\Debug\netcoreapp3.1\FactoryFurniture.Data.csprojAssemblyReference.cache
+C:\Users\BezrukovGA\source\repos\FactoryFurniture\FactoryFurniture.Data\obj\Debug\netcoreapp3.1\FactoryFurniture.Data.csproj.CoreCompileInputs.cache
+C:\Users\BezrukovGA\source\repos\FactoryFurniture\FactoryFurniture.Data\obj\Debug\netcoreapp3.1\FactoryFurniture.Data.AssemblyInfoInputs.cache
+C:\Users\BezrukovGA\source\repos\FactoryFurniture\FactoryFurniture.Data\obj\Debug\netcoreapp3.1\FactoryFurniture.Data.AssemblyInfo.cs
+C:\Users\BezrukovGA\source\repos\FactoryFurniture\FactoryFurniture.Data\obj\Debug\netcoreapp3.1\FactoryFurniture.Data.dll
+C:\Users\BezrukovGA\source\repos\FactoryFurniture\FactoryFurniture.Data\obj\Debug\netcoreapp3.1\FactoryFurniture.Data.pdb

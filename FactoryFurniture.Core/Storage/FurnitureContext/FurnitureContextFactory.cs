@@ -27,7 +27,7 @@ namespace FactoryFurniture.Core.Storage
                 connString = _connectionString;
             }
 
-            else if (!string.IsNullOrEmpty(args[0]))
+            else if (args.Length > 0 && !string.IsNullOrEmpty(args[0]))
             {
                 connString = args[0];
             }
