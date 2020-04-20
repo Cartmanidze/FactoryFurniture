@@ -1,8 +1,8 @@
 using FactoryFurniture.Core.Repository.FurnitureRepository;
 using FactoryFurniture.Core.Storage;
+using FactoryFurniture.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -30,6 +30,7 @@ namespace FactoryFurniture
             MigrateDataBase(furniture);
             services.AddSingleton(furniture);
             services.AddScoped<FurnitureRepository>();
+            services.AddScoped<FurnitureService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
