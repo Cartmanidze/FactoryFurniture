@@ -1,0 +1,54 @@
+﻿@page "/"
+
+@using FactoryFurniture.Data
+@using FactoryFurniture.Services
+@inject FurnitureService FurnitureService
+
+<h1>Список мебели</h1>
+
+<p>
+    <a href="/addfurniture">Создать новую мебель</a>
+</p>
+
+@if (_furnitureCollection == null)
+{
+    <p><em>Данные загружаются...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+        <tr>
+            <th>Наименование</th>
+            <th>Описание</th>
+            <th>Цена</th>
+        </tr>
+        </thead>
+
+        <tbody>
+            @foreach (var furniture in _furnitureCollection)
+            {
+                <tr>
+                    <td>@furniture.Name</td>
+                    <td>@furniture.Description</td>
+                    <td>@furniture.Price р.</td>
+                    <td>
+                        <a href='/editfurniture/@furniture.Id'>Изменить</a>  |
+                        <a href='/delete/@furniture.Id'>Удалить</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+
+    private IEnumerable<Furniture> _furnitureCollection;
+
+    protected override async Task OnInitializedAsync()
+    {
+        _furnitureCollection = await FurnitureService.GetAll();
+        
+    }
+}

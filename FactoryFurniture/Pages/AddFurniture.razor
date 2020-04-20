@@ -1,0 +1,43 @@
+﻿@using FactoryFurniture.Data;
+@using FactoryFurniture.Services
+@page "/addfurniture"
+@inject NavigationManager Navigation
+@inject FurnitureService FurnitureService
+
+<h1>Создание мебели</h1>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form>
+            <div class="form-group">
+                <label for="Name" class="control-label">Наименование</label>
+                <input for="Name" class="form-control" @bind="@_furniture.Name" />
+            </div>
+            <div class="form-group">
+                <label asp-for="Description" class="control-label">Описание</label>
+                <textarea asp-for="Description" class="form-control" @bind="@_furniture.Description"> </textarea>
+            </div>
+            <div class="form-group">
+                <label asp-for="Price" class="control-label">Цена</label>
+                <input asp-for="Price" class="form-control" @bind="@_furniture.Price" />
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary" @onclick="@(async () =>
+                                                                        {
+                                                                            await FurnitureService.CreateFurniture(_furniture);
+                                                                        })">Сохранить</button>
+                <button class="btn btn-warning" @onclick="@Back">Назад</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+@functions {
+    private readonly Furniture _furniture = new Furniture();
+
+          
+    private void Back()
+    {
+        Navigation.NavigateTo("/", true);
+    }
+}

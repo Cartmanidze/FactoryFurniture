@@ -1,0 +1,51 @@
+﻿@using FactoryFurniture.Data;
+@using FactoryFurniture.Services
+@page "/delete/{Id}"
+@inject NavigationManager Navigation
+@inject FurnitureService FurnitureService
+
+<h2>Удаление</h2>
+<h3>Вы уверены в том, что хотите удалить данную мебель : @_furniture.Name</h3>
+<br />
+<div class="col-md-4">
+    <table class="table">
+        <tr>
+            <td>Наименование</td>
+            <td>@_furniture.Name</td>
+        </tr>
+        <tr>
+            <td>Описание</td>
+            <td>@_furniture.Description</td>
+        </tr>
+        <tr>
+            <td>Цена</td>
+            <td>@_furniture.Price</td>
+        </tr>
+    </table>
+    <div class="form-group">
+        <input type="submit" value="Удалить" @onclick="@(() =>
+                                                       {
+                                                           FurnitureService.Delete(_furniture);
+                                                           Back();
+                                                       })" class="btn btn-primary" />
+        <input type="submit" value="Отменить" @onclick="@Back" class="btn btn-warning" />
+    </div>
+</div>
+
+@functions {
+
+    [Parameter]
+    public string Id { get; set; }
+
+    private Furniture _furniture = new Furniture();
+
+    protected override async Task OnInitializedAsync()
+    {
+        _furniture = await FurnitureService.GetById(Id);
+    }
+
+    private void Back()
+    {
+        Navigation.NavigateTo("/", true);
+    }
+}
