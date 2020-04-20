@@ -8,8 +8,6 @@ C:\Users\BezrukovGA\source\repos\FactoryFurniture\FactoryFurniture\bin\Debug\net
 C:\Users\BezrukovGA\source\repos\FactoryFurniture\FactoryFurniture\bin\Debug\netcoreapp3.1\FactoryFurniture.dll
 C:\Users\BezrukovGA\source\repos\FactoryFurniture\FactoryFurniture\bin\Debug\netcoreapp3.1\FactoryFurniture.pdb
 C:\Users\BezrukovGA\source\repos\FactoryFurniture\FactoryFurniture\obj\Debug\netcoreapp3.1\FactoryFurniture.csprojAssemblyReference.cache
-C:\Users\BezrukovGA\source\repos\FactoryFurniture\FactoryFurniture\obj\Debug\netcoreapp3.1\FactoryFurniture.csproj.CoreCompileInputs.cache
-C:\Users\BezrukovGA\source\repos\FactoryFurniture\FactoryFurniture\obj\Debug\netcoreapp3.1\FactoryFurniture.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\BezrukovGA\source\repos\FactoryFurniture\FactoryFurniture\obj\Debug\netcoreapp3.1\FactoryFurniture.AssemblyInfoInputs.cache
 C:\Users\BezrukovGA\source\repos\FactoryFurniture\FactoryFurniture\obj\Debug\netcoreapp3.1\FactoryFurniture.AssemblyInfo.cs
 C:\Users\BezrukovGA\source\repos\FactoryFurniture\FactoryFurniture\obj\Debug\netcoreapp3.1\FactoryFurniture.RazorTargetAssemblyInfo.cache
@@ -18,3 +16,6 @@ C:\Users\BezrukovGA\source\repos\FactoryFurniture\FactoryFurniture\obj\Debug\net
 C:\Users\BezrukovGA\source\repos\FactoryFurniture\FactoryFurniture\obj\Debug\netcoreapp3.1\FactoryFurniture.dll
 C:\Users\BezrukovGA\source\repos\FactoryFurniture\FactoryFurniture\obj\Debug\netcoreapp3.1\FactoryFurniture.pdb
 C:\Users\BezrukovGA\source\repos\FactoryFurniture\FactoryFurniture\obj\Debug\netcoreapp3.1\FactoryFurniture.genruntimeconfig.cache
+C:\Users\BezrukovGA\source\repos\FactoryFurniture\FactoryFurniture\obj\Debug\netcoreapp3.1\FactoryFurniture.RazorComponent.input.cache
+C:\Users\BezrukovGA\source\repos\FactoryFurniture\FactoryFurniture\obj\Debug\netcoreapp3.1\RazorDeclaration\App.razor.g.cs
+C:\Users\BezrukovGA\source\repos\FactoryFurniture\FactoryFurniture\obj\Debug\netcoreapp3.1\RazorDeclaration\_Imports.razor.g.cs

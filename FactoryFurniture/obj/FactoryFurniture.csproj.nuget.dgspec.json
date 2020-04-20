@@ -4,14 +4,95 @@
     "C:\\Users\\BezrukovGA\\source\\repos\\FactoryFurniture\\FactoryFurniture\\FactoryFurniture.csproj": {}
   },
   "projects": {
-    "C:\\Users\\BezrukovGA\\source\\repos\\FactoryFurniture\\FactoryFurniture\\FactoryFurniture.csproj": {
+    "C:\\Users\\BezrukovGA\\source\\repos\\FactoryFurniture\\FactoryFurniture.Core\\FactoryFurniture.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\BezrukovGA\\source\\repos\\FactoryFurniture\\FactoryFurniture\\FactoryFurniture.csproj",
-        "projectName": "FactoryFurniture",
-        "projectPath": "C:\\Users\\BezrukovGA\\source\\repos\\FactoryFurniture\\FactoryFurniture\\FactoryFurniture.csproj",
+        "projectUniqueName": "C:\\Users\\BezrukovGA\\source\\repos\\FactoryFurniture\\FactoryFurniture.Core\\FactoryFurniture.Core.csproj",
+        "projectName": "FactoryFurniture.Core",
+        "projectPath": "C:\\Users\\BezrukovGA\\source\\repos\\FactoryFurniture\\FactoryFurniture.Core\\FactoryFurniture.Core.csproj",
         "packagesPath": "C:\\Users\\BezrukovGA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\BezrukovGA\\source\\repos\\FactoryFurniture\\FactoryFurniture\\obj\\",
+        "outputPath": "C:\\Users\\BezrukovGA\\source\\repos\\FactoryFurniture\\FactoryFurniture.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\BezrukovGA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\BezrukovGA\\source\\repos\\FactoryFurniture\\FactoryFurniture.Data\\FactoryFurniture.Data.csproj": {
+                "projectPath": "C:\\Users\\BezrukovGA\\source\\repos\\FactoryFurniture\\FactoryFurniture.Data\\FactoryFurniture.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\BezrukovGA\\source\\repos\\FactoryFurniture\\FactoryFurniture.Data\\FactoryFurniture.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\BezrukovGA\\source\\repos\\FactoryFurniture\\FactoryFurniture.Data\\FactoryFurniture.Data.csproj",
+        "projectName": "FactoryFurniture.Data",
+        "projectPath": "C:\\Users\\BezrukovGA\\source\\repos\\FactoryFurniture\\FactoryFurniture.Data\\FactoryFurniture.Data.csproj",
+        "packagesPath": "C:\\Users\\BezrukovGA\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\BezrukovGA\\source\\repos\\FactoryFurniture\\FactoryFurniture.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -40,6 +121,75 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\BezrukovGA\\source\\repos\\FactoryFurniture\\FactoryFurniture\\FactoryFurniture.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\BezrukovGA\\source\\repos\\FactoryFurniture\\FactoryFurniture\\FactoryFurniture.csproj",
+        "projectName": "FactoryFurniture",
+        "projectPath": "C:\\Users\\BezrukovGA\\source\\repos\\FactoryFurniture\\FactoryFurniture\\FactoryFurniture.csproj",
+        "packagesPath": "C:\\Users\\BezrukovGA\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\BezrukovGA\\source\\repos\\FactoryFurniture\\FactoryFurniture\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\BezrukovGA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\BezrukovGA\\source\\repos\\FactoryFurniture\\FactoryFurniture.Core\\FactoryFurniture.Core.csproj": {
+                "projectPath": "C:\\Users\\BezrukovGA\\source\\repos\\FactoryFurniture\\FactoryFurniture.Core\\FactoryFurniture.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "bootstrap": {
+              "target": "Package",
+              "version": "[4.4.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
